@@ -1,0 +1,423 @@
+{
+  "localhost.localdomain": {
+    "errors": [], 
+    "hardware_specific_dict": {
+      "idrac_url": "https://192.168.1.111:443/login.html", 
+      "hw_platform": "dell"
+    }, 
+    "os_version": "Linux 3.10.0-327.10.1.el7.x86_64", 
+    "interfaces": {
+      "em4": {
+        "status": "down", 
+        "carrier_status": "disconnected"
+      }, 
+      "em1": {
+        "status": "up", 
+        "ip_configured": true, 
+        "inet": [
+          {
+            "broadcast": "192.168.1.255", 
+            "netmask": "255.255.255.0", 
+            "label": "em1", 
+            "address": "192.168.1.249"
+          }
+        ], 
+        "carrier_status": "connected"
+      }, 
+      "em3": {
+        "status": "down", 
+        "carrier_status": "disconnected"
+      }, 
+      "em2": {
+        "status": "down", 
+        "carrier_status": "disconnected"
+      }
+    }, 
+    "disks": {
+      "LP28636": {
+        "status": "PASSED", 
+        "rotational": true, 
+        "capacity": "150.0 GB", 
+        "name": "sda", 
+        "enclosure_id": "1", 
+        "hw_raid": false, 
+        "target_id": "4", 
+        "scsi_info": [
+          0, 
+          0, 
+          4, 
+          0
+        ], 
+        "path": "/dev/sda", 
+        "serial_number": "LP28636", 
+        "id": "ata-WL150GLSA1654_LP28636", 
+        "channel": "0", 
+        "partitions": []
+      }, 
+      "S7K0S50Z": {
+        "status": "Ok", 
+        "rotational": true, 
+        "capacity": "299.4 GB", 
+        "name": "sdd", 
+        "enclosure_id": "1", 
+        "hw_raid": true, 
+        "target_id": "0", 
+        "os_device": true, 
+        "scsi_info": [
+          0, 
+          2, 
+          0, 
+          0
+        ], 
+        "path": "/dev/sdd", 
+        "serial_number": "S7K0S50Z", 
+        "id": "scsi-36141877056a935001fd183280e7b4e20", 
+        "channel": "0", 
+        "partitions": [
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd3"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd3"
+          }, 
+          {
+            "capacity": "17.2 GB", 
+            "name": "sdd2"
+          }, 
+          {
+            "capacity": "17.2 GB", 
+            "name": "sdd2"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd5"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd5"
+          }, 
+          {
+            "capacity": "249.0 GB", 
+            "name": "sdd7"
+          }, 
+          {
+            "capacity": "249.0 GB", 
+            "name": "sdd7"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd6"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd6"
+          }, 
+          {
+            "capacity": "1073 MB", 
+            "name": "sdd1"
+          }, 
+          {
+            "capacity": "1073 MB", 
+            "name": "sdd1"
+          }, 
+          {
+            "capacity": "0 MB", 
+            "name": "sdd4"
+          }, 
+          {
+            "capacity": "0 MB", 
+            "name": "sdd4"
+          }
+        ]
+      }, 
+      "S7K0S3T2": {
+        "status": "Ok", 
+        "rotational": true, 
+        "capacity": "299.4 GB", 
+        "name": "sdd", 
+        "enclosure_id": "1", 
+        "hw_raid": true, 
+        "target_id": "1", 
+        "os_device": true, 
+        "scsi_info": [
+          0, 
+          2, 
+          0, 
+          0
+        ], 
+        "path": "/dev/sdd", 
+        "serial_number": "S7K0S3T2", 
+        "id": "scsi-36141877056a935001fd183280e7b4e20", 
+        "channel": "0", 
+        "partitions": [
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd3"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd3"
+          }, 
+          {
+            "capacity": "17.2 GB", 
+            "name": "sdd2"
+          }, 
+          {
+            "capacity": "17.2 GB", 
+            "name": "sdd2"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd5"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd5"
+          }, 
+          {
+            "capacity": "249.0 GB", 
+            "name": "sdd7"
+          }, 
+          {
+            "capacity": "249.0 GB", 
+            "name": "sdd7"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd6"
+          }, 
+          {
+            "capacity": "10.7 GB", 
+            "name": "sdd6"
+          }, 
+          {
+            "capacity": "1073 MB", 
+            "name": "sdd1"
+          }, 
+          {
+            "capacity": "1073 MB", 
+            "name": "sdd1"
+          }, 
+          {
+            "capacity": "0 MB", 
+            "name": "sdd4"
+          }, 
+          {
+            "capacity": "0 MB", 
+            "name": "sdd4"
+          }
+        ]
+      }, 
+      "LP28741": {
+        "status": "PASSED", 
+        "rotational": true, 
+        "capacity": "150.0 GB", 
+        "name": "sdb", 
+        "enclosure_id": "1", 
+        "hw_raid": false, 
+        "target_id": "5", 
+        "scsi_info": [
+          0, 
+          0, 
+          5, 
+          0
+        ], 
+        "path": "/dev/sdb", 
+        "serial_number": "LP28741", 
+        "id": "ata-WL150GLSA1654_lp28741", 
+        "channel": "0", 
+        "partitions": []
+      }, 
+      "LP28738": {
+        "status": "PASSED", 
+        "rotational": true, 
+        "capacity": "150.0 GB", 
+        "name": "sdc", 
+        "enclosure_id": "1", 
+        "hw_raid": false, 
+        "target_id": "7", 
+        "scsi_info": [
+          0, 
+          0, 
+          7, 
+          0
+        ], 
+        "path": "/dev/sdc", 
+        "serial_number": "LP28738", 
+        "id": "ata-WL150GLSA1654_LP28738", 
+        "channel": "0", 
+        "partitions": []
+      }
+    }, 
+    "cpu_model": " Intel(R) Xeon(R) CPU E5-2603 v3 @ 1.60GHz", 
+    "fqdn": "localhost.localdomain", 
+    "pools": [], 
+    "node_status": 0, 
+    "load_avg": {
+      "5_min": 0.19, 
+      "15_min": 0.22, 
+      "cpu_cores": 6, 
+      "1_min": 0.25
+    }, 
+    "node_status_str": "Healthy", 
+    "memory": {
+      "mem_free": {
+        "value": 14.038211822509766, 
+        "unit": "GB"
+      }, 
+      "mem_total": {
+        "value": 15.401588439941406, 
+        "unit": "GB"
+      }
+    }, 
+    "services": {
+      "winbind": [
+        0, 
+        "\u25cf winbind.service - Samba Winbind Daemon,   Loaded: loaded (/usr/lib/systemd/system/winbind.service; enabled; vendor preset: disabled),   Active: active (running) since Tue 2017-02-21 11:28:44 IST; 4h 2min ago, Main PID: 2249 (winbindd),   Status: \"winbindd: ready to serve connections...\",   CGroup: /system.slice/winbind.service,           \u251c\u25002249 /usr/sbin/winbindd,           \u251c\u25002260 /usr/sbin/winbindd,           \u251c\u25002455 /usr/sbin/winbindd,           \u2514\u25002466 /usr/sbin/winbindd,,Feb 21 11:28:44 localhost.localdomain systemd[1]: Starting Samba Winbind Daemon...,Feb 21 11:28:44 localhost.localdomain systemd[1]: winbind.service: Supervising process 2249 which is not our child. We'll most likely not notice when it exits.,Feb 21 11:28:44 localhost.localdomain winbindd[2249]: [2017/02/21 11:28:44.218634,  0] ../source3/winbindd/winbindd_cache.c:3235(initialize_winbindd_cache),Feb 21 11:28:44 localhost.localdomain winbindd[2249]:   initialize_winbindd_cache: clearing cache and re-creating with version number 2,Feb 21 11:28:44 localhost.localdomain winbindd[2249]: [2017/02/21 11:28:44.220628,  0] ../lib/util/become_daemon.c:124(daemon_ready),Feb 21 11:28:44 localhost.localdomain winbindd[2249]:   STATUS=daemon 'winbindd' finished starting up and ready to serve connections,Feb 21 11:28:44 localhost.localdomain systemd[1]: Started Samba Winbind Daemon.active"
+      ], 
+      "tgtd": [
+        0, 
+        "\u25cf tgtd.service - tgtd iSCSI target daemon,   Loaded: loaded (/usr/lib/systemd/system/tgtd.service; enabled; vendor preset: disabled),   Active: active (running) since Tue 2017-02-21 11:28:49 IST; 4h 2min ago,  Process: 3475 ExecStartPost=/usr/sbin/tgtadm --op update --mode sys --name State -v ready (code=exited, status=0/SUCCESS),  Process: 3469 ExecStartPost=/usr/sbin/tgt-admin -e -c $TGTD_CONFIG (code=exited, status=0/SUCCESS),  Process: 3467 ExecStartPost=/usr/sbin/tgtadm --op update --mode sys --name State -v offline (code=exited, status=0/SUCCESS),  Process: 2009 ExecStartPost=/bin/sleep 5 (code=exited, status=0/SUCCESS), Main PID: 2008 (tgtd),   CGroup: /system.slice/tgtd.service,           \u2514\u25002008 /usr/sbin/tgtd -f,,Feb 21 11:28:44 localhost.localdomain systemd[1]: Starting tgtd iSCSI target daemon...,Feb 21 11:28:44 localhost.localdomain tgtd[2008]: tgtd: iser_ib_init(3436) Failed to initialize RDMA; load kernel modules?,Feb 21 11:28:44 localhost.localdomain tgtd[2008]: tgtd: work_timer_start(146) use timer_fd based scheduler,Feb 21 11:28:44 localhost.localdomain tgtd[2008]: tgtd: bs_init_signalfd(267) could not open backing-store module directory /usr/lib64/tgt/backing-store,Feb 21 11:28:44 localhost.localdomain tgtd[2008]: tgtd: bs_init(386) use signalfd notification,Feb 21 11:28:49 localhost.localdomain systemd[1]: Started tgtd iSCSI target daemon.active"
+      ], 
+      "vsftpd": [
+        0, 
+        "\u25cf vsftpd.service - Vsftpd ftp daemon,   Loaded: loaded (/usr/lib/systemd/system/vsftpd.service; enabled; vendor preset: disabled),   Active: active (running) since Tue 2017-02-21 11:28:44 IST; 4h 2min ago,  Process: 2021 ExecStart=/usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf (code=exited, status=0/SUCCESS), Main PID: 2029 (vsftpd),   CGroup: /system.slice/vsftpd.service,           \u2514\u25002029 /usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf,,Feb 21 11:28:44 localhost.localdomain systemd[1]: Starting Vsftpd ftp daemon...,Feb 21 11:28:44 localhost.localdomain systemd[1]: Started Vsftpd ftp daemon.active"
+      ], 
+      "nfs": [
+        0, 
+        "\u25cf nfs-server.service - NFS server and services,   Loaded: loaded (/usr/lib/systemd/system/nfs-server.service; enabled; vendor preset: disabled),   Active: active (exited) since Tue 2017-02-21 11:28:44 IST; 4h 2min ago,  Process: 2255 ExecStart=/usr/sbin/rpc.nfsd $RPCNFSDARGS (code=exited, status=0/SUCCESS),  Process: 2195 ExecStartPre=/usr/sbin/exportfs -r (code=exited, status=0/SUCCESS), Main PID: 2255 (code=exited, status=0/SUCCESS),   CGroup: /system.slice/nfs-server.service,,Feb 21 11:28:44 localhost.localdomain systemd[1]: Starting NFS server and services...,Feb 21 11:28:44 localhost.localdomain systemd[1]: Started NFS server and services.active"
+      ], 
+      "shellinaboxd": [
+        0, 
+        "\u25cf shellinaboxd.service - Shell In A Box daemon,   Loaded: loaded (/usr/lib/systemd/system/shellinaboxd.service; enabled; vendor preset: disabled),   Active: active (running) since Tue 2017-02-21 11:28:44 IST; 4h 2min ago,     Docs: man:shellinaboxd(1), Main PID: 2018 (shellinaboxd),   CGroup: /system.slice/shellinaboxd.service,           \u251c\u25002018 /usr/sbin/shellinaboxd -u integralstor -g integralstor --cert=/var/lib/shellinabox --port=4200 -t -s /:LOGIN,           \u2514\u25002025 /usr/sbin/shellinaboxd -u integralstor -g integralstor --cert=/var/lib/shellinabox --port=4200 -t -s /:LOGIN,,Feb 21 11:28:44 localhost.localdomain systemd[1]: Started Shell In A Box daemon.,Feb 21 11:28:44 localhost.localdomain systemd[1]: Starting Shell In A Box daemon...active"
+      ], 
+      "urbackup-server": [
+        0, 
+        "\u25cf urbackup-server.service - UrBackup Client/Server Network Backup System,   Loaded: loaded (/usr/lib/systemd/system/urbackup-server.service; disabled; vendor preset: disabled),   Active: inactive (dead),,Feb 21 15:30:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:30:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:30:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:30:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:30:06 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:31:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:31:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:31:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:31:01 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service',Feb 21 15:31:06 localhost.localdomain systemd[1]: [/usr/lib/systemd/system/urbackup-server.service:8] Unknown lvalue 'TasksMax' in section 'Service'unknown"
+      ], 
+      "smb": [
+        0, 
+        "\u25cf smb.service - Samba SMB Daemon,   Loaded: loaded (/usr/lib/systemd/system/smb.service; enabled; vendor preset: disabled),   Active: active (running) since Tue 2017-02-21 11:28:44 IST; 4h 2min ago, Main PID: 2434 (smbd),   Status: \"smbd: ready to serve connections...\",   CGroup: /system.slice/smb.service,           \u251c\u25002434 /usr/sbin/smbd,           \u2514\u25002479 /usr/sbin/smbd,,Feb 21 14:56:56 localhost.localdomain smbd[2479]: [2017/02/21 14:56:56.062752,  0] ../source3/printing/print_cups.c:529(cups_async_callback),Feb 21 14:56:56 localhost.localdomain smbd[2479]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL,Feb 21 15:09:56 localhost.localdomain smbd[74842]: [2017/02/21 15:09:56.752232,  0] ../source3/printing/print_cups.c:151(cups_connect),Feb 21 15:09:56 localhost.localdomain smbd[74842]:   Unable to connect to CUPS server localhost:631 - Transport endpoint is not connected,Feb 21 15:09:56 localhost.localdomain smbd[2479]: [2017/02/21 15:09:56.752472,  0] ../source3/printing/print_cups.c:529(cups_async_callback),Feb 21 15:09:56 localhost.localdomain smbd[2479]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFUL,Feb 21 15:22:57 localhost.localdomain smbd[78873]: [2017/02/21 15:22:57.455869,  0] ../source3/printing/print_cups.c:151(cups_connect),Feb 21 15:22:57 localhost.localdomain smbd[78873]:   Unable to connect to CUPS server localhost:631 - Transport endpoint is not connected,Feb 21 15:22:57 localhost.localdomain smbd[2479]: [2017/02/21 15:22:57.456099,  0] ../source3/printing/print_cups.c:529(cups_async_callback),Feb 21 15:22:57 localhost.localdomain smbd[2479]:   failed to retrieve printer list: NT_STATUS_UNSUCCESSFULactive"
+      ], 
+      "ntpd": [
+        0, 
+        "\u25cf ntpd.service - Network Time Service,   Loaded: loaded (/usr/lib/systemd/system/ntpd.service; enabled; vendor preset: disabled),   Active: active (running) since Tue 2017-02-21 11:28:24 IST; 4h 2min ago,  Process: 1562 ExecStart=/usr/sbin/ntpd -u ntp:ntp $OPTIONS (code=exited, status=0/SUCCESS), Main PID: 1577 (ntpd),   CGroup: /system.slice/ntpd.service,           \u2514\u25001577 /usr/sbin/ntpd -u ntp:ntp -g,,Feb 21 11:28:37 localhost.localdomain ntpd[1577]: new interface(s) found: waking up resolver,Feb 21 11:29:04 localhost.localdomain ntpd_intres[1602]: DNS 1.centos.pool.ntp.org -> 139.59.45.40,Feb 21 11:29:04 localhost.localdomain ntpd_intres[1602]: DNS 2.centos.pool.ntp.org -> 139.59.45.40,Feb 21 11:29:04 localhost.localdomain ntpd_intres[1602]: DNS 3.centos.pool.ntp.org -> 139.59.45.40,Feb 21 11:29:05 localhost.localdomain ntpd[1577]: 0.0.0.0 c61c 0c clock_step +1.037441 s,Feb 21 11:29:06 localhost.localdomain ntpd[1577]: 0.0.0.0 c614 04 freq_mode,Feb 21 11:29:07 localhost.localdomain ntpd[1577]: 0.0.0.0 c618 08 no_sys_peer,Feb 21 11:29:07 localhost.localdomain ntpd_intres[1602]: DNS 0.centos.pool.ntp.org -> 139.59.45.40,Feb 21 11:45:55 localhost.localdomain ntpd[1577]: 0.0.0.0 c612 02 freq_set kernel -3.527 PPM,Feb 21 11:45:55 localhost.localdomain ntpd[1577]: 0.0.0.0 c615 05 clock_syncactive"
+      ]
+    }, 
+    "zfs_version": "ZFS build 0.6.5.7-1", 
+    "ipmi_status": [
+      {
+        "status": "ok", 
+        "reading": "1680 RPM", 
+        "parameter_name": "Fan1A"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "1680 RPM", 
+        "parameter_name": "Fan1B"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2880 RPM", 
+        "parameter_name": "Fan2A"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2760 RPM", 
+        "parameter_name": "Fan2B"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2760 RPM", 
+        "parameter_name": "Fan3A"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2640 RPM", 
+        "parameter_name": "Fan3B"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2880 RPM", 
+        "parameter_name": "Fan4A"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2760 RPM", 
+        "parameter_name": "Fan4B"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2880 RPM", 
+        "parameter_name": "Fan5A"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2760 RPM", 
+        "parameter_name": "Fan5B"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2640 RPM", 
+        "parameter_name": "Fan6A"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "2520 RPM", 
+        "parameter_name": "Fan6B"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "24 degrees C", 
+        "parameter_name": "Inlet Temp"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "0x00", 
+        "parameter_name": "PS1 PG Fail"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "0x00", 
+        "parameter_name": "Fan Redundancy"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "0x00", 
+        "parameter_name": "CMOS Battery"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "0.40 Amps", 
+        "parameter_name": "Current 2"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "232 Volts", 
+        "parameter_name": "Voltage 2"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "0x00", 
+        "parameter_name": "PS Redundancy"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "98 Watts", 
+        "parameter_name": "Pwr Consumption"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "60 degrees C", 
+        "parameter_name": "Temp"
+      }, 
+      {
+        "status": "ok", 
+        "reading": "60 degrees C", 
+        "parameter_name": "Temp"
+      }
+    ]
+  }
+}
