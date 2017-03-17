@@ -1,12 +1,12 @@
-import json, sys, itertools, os, commands
+import json, sys, itertools
 from collections import OrderedDict
+from integralstor_common import command
 dic = json.loads(open('/opt/integralstor/integralstor_unicell/config/status/master.status').read())
-wst, hostnm = commands.getstatusoutput("hostname")
-doc = dic[hostnm]
+hostname, err = command.get_command_output('hostname', shell = True)
+doc = dic[hostname[0]]
 interfaces = doc['interfaces']
 disks = doc['disks']
 services = doc['services']
-node_status_str = doc['node_status_str']
 pools = doc['pools']
 status_li=[]
 value_li=[]
